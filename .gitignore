@@ -1,0 +1,6 @@
+.DS_STORE
+.eslintrc.json
+node_modules
+.local_server
+.idea/
+audit

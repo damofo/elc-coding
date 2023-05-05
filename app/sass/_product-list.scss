@@ -1,0 +1,58 @@
+/**
+ * This is the product list section
+ *
+ */
+
+ .product-empty {
+  padding: 1rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+
+.product-error {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff0000;
+}
+
+.product-container {
+  padding: 1rem;
+
+  .name {
+    color: black;
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+
+  .about {
+    font-size: 1rem;
+  }
+
+  .price {
+    font-size: 1rem;
+  }
+
+  img {
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+  }
+ 
+  .product-count {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 32px;
+  }
+  
+  .product {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-bottom: 2rem;
+
+    @media (max-width: 750px) {
+      flex-direction: column;
+    }
+  }
+}
